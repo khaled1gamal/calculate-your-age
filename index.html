@@ -134,7 +134,9 @@
         const totalMinutes = totalHours * 60;
         const totalSeconds = totalMinutes * 60;
 
-        document.getElementById("age1").innerHTML = `Your age is: ${years} years, ${months} months, ${days} days`;
+        document.getElementById(
+          "age1"
+        ).innerHTML = `Your age is: ${years} years,<br> ${months} months,<br> ${days} days`;
         document.getElementById("age2").innerHTML = `Total days: ${totalDays}`;
         document.getElementById("age3").innerHTML = `Total hours: ${totalHours}`;
         document.getElementById("age4").innerHTML = `Total minutes: ${totalMinutes}`;
